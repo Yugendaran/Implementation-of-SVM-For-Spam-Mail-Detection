@@ -55,7 +55,7 @@ cv = CountVectorizer()
 x_train = cv.fit_transform(x_train)
 x_test = cv.transform(x_test)
 
-print("y_pred value:")
+print("y_prediction  value:")
 from sklearn.svm import SVC
 svc=SVC()
 svc.fit(x_train,y_train)
